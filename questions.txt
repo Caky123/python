@@ -1,0 +1,79 @@
+Basic Python Knowledge
+x = 7
+y = 3
+z = x * y + 2
+print("Result:", z)
+
+Questions:
+What will be the output of this code and why?
+What data type is the variable z?
+
+2. Age Check
+age = int(input("Enter your age: "))
+
+if age >= 18:
+    print("Adult")
+else:
+    print("Minor")
+
+Questions:
+Why is int() used around input()?
+How would you handle invalid input (e.g., text)?
+
+3. List Sum and Even Numbers
+numbers = [1, 2, 3, 4, 5]
+total = 0
+
+for number in numbers:
+    if number % 2 == 0:
+        total += number
+
+Questions:
+How would you modify the program to sum only even numbers?
+How would you do the same using sum()?
+
+4. Dictionary
+student = {
+    "name": "Peter",
+    "age": 20,
+    "subjects": ["Mathematics", "Physics", "XXX"]
+}
+
+print(student["name"])
+
+print(student.get("name"))
+
+studen["subjects"].append("XXX")
+print(student)
+
+Questions:
+What does this code print?
+How do you add another subject to the subjects list?
+What happens if you use student["email"]?
+
+5. Working with Files
+with open("data.txt", "r") as file:
+    content = file.read()
+
+print(content)
+Questions:
+What happens if the file does not exist?
+What is the purpose of with?
+How would you print the file line by line?
+
+
+7. Basics of OOP
+class Car:
+    def __init__(self, brand):
+        self.brand = brand
+
+    def greet(self):
+        print(f"I am a car of brand {self.brand}")
+
+my_car = Car("Škoda")
+my_car.greet()
+
+Questions:
+What is self?
+What is a constructor?
+How do you create another instance of the class?
