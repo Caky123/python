@@ -1,0 +1,14 @@
+Pet Simulator – OOP Project
+
+Project Goal:
+
+Create a pet simulator where you will work with different types of animals (dog, cat, parrot…), each with its own attributes (hunger, energy, happiness), methods (feed, play, sleep), random events (illness, fatigue), and you'll handle errors using exceptions.
+
+
+Lesson 1 – Introduction to OOP, First Class: Pet
+Create a basic class called Pet with the following attributes:
+name (string),
+hunger (number, range 0–100),
+energy (number, range 0–100).
+Write the __init__ constructor method.
+Create at least one instance and print its attributes.
