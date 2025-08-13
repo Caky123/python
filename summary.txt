@@ -1,0 +1,57 @@
+Object-Oriented Programming in Python
+
+1. Introduction to OOP
+
+What is OOP
+Object-Oriented Programming is a programming paradigm based on the concept of “objects,” which can contain data and code.
+Why it is used
+Modularity – code is organized into separate, reusable units
+Readability – structure makes code easier to understand and maintain
+Reusability – components can be reused across projects
+Basic principles
+Encapsulation – bundling data and methods that operate on the data
+Inheritance – ability to create new classes based on existing ones
+Polymorphism – same interface, different behavior depending on context
+
+2. Classes and Objects
+class – defining a class
+Use the class keyword to create a new class.
+__init__ – constructor
+Special method called when a new object is created; used for initialization.
+self – reference to the instance
+Refers to the current object; used to access attributes and methods.
+Object = instance of a class
+Objects are individual instances created from a class blueprint.
+
+3. Attributes and Methods
+Attributes = object data
+Variables that store the state of the object.
+Methods = object behavior
+Functions defined inside a class that describe actions the object can perform.
+Instance vs. Class attributes
+Instance attributes – unique to each object
+Class attributes – shared among all instances
+
+4. Encapsulation
+Data protection (private: __)
+Prefixing attributes with double underscores makes them private.
+Getter and Setter methods
+Used to read and update private attributes safely.
+Access levels
+Public – accessible from anywhere
+Protected (_) – intended for internal use
+Private (__) – name mangling makes it harder to access directly
+
+5. Inheritance
+Creating subclasses
+New classes can inherit attributes and methods from existing ones.
+super() – calling the parent class
+Allows access to methods and constructors of the parent class.
+
+6. Polymorphism
+Same interface, different behavior
+Methods with the same name can behave differently in different classes.
+Functions working with different object types
+One function can accept different types of objects as arguments.
+Extensibility without modifying code
+You can add new behaviors by creating new subclasses without changing existing code.
