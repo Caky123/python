@@ -14,3 +14,16 @@ hunger (number, range 0–100),
 energy (number, range 0–100).
 Write the __init__ constructor method.
 Create at least one instance and print its attributes.
+
+UPDATE:
+add happiness to attributes
+
+Instance Methods, Changing Pet State
+Add the following methods to your Pet class:
+feed() – decreases hunger
+play() – decreases energy and increases happiness
+sleep() – increases energy
+
+Modify the methods so that they update the instance's attributes accordingly.
+Test calling these methods on an instance of the class.
+
