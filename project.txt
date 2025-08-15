@@ -15,7 +15,7 @@ energy (number, range 0–100).
 Write the __init__ constructor method.
 Create at least one instance and print its attributes.
 
-UPDATE:
+UPDATE-01:
 add happiness to attributes
 
 Instance Methods, Changing Pet State
@@ -26,4 +26,14 @@ sleep() – increases energy
 
 Modify the methods so that they update the instance's attributes accordingly.
 Test calling these methods on an instance of the class.
+
+UPDATE-02:
+Add an attribute named abilities or instincts, which should be a list type, as an animal can have multiple instincts.
+
+Add a __str__() method for a nicely formatted display of the pet's information.
+Set default values for the attributes in the __init__ method if they are not provided.
+
+Create an example where hunger and energy are not given, and the default values are used.
+
+
 
