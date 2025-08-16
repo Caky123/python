@@ -36,7 +36,7 @@ Set default values for the attributes in the __init__ method if they are not pro
 Create an example where hunger and energy are not given, and the default values are used.
 
 
-Lesson 2 - 
+Lesson 2
 
 Encapsulation and @property:
 
