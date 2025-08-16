@@ -36,4 +36,30 @@ Set default values for the attributes in the __init__ method if they are not pro
 Create an example where hunger and energy are not given, and the default values are used.
 
 
+Lesson 2 - 
+
+Encapsulation and @property:
+
+Mark the attributes as "private".
+Create @property and @setter methods for safely changing the hunger and energy levels (e.g., values must stay between 0 and 100).
+Handle errors when invalid values are provided.
+
+
+Inheritance – Specific Pet Types
+Create classes Dog, Cat, and Parrot that inherit from Pet.
+Each type should have a specific method, e.g., make_sound(), with different outputs.
+Use super() in the constructors.
+
+
+Polymorphism and isinstance()
+Create a list of pets from different classes.
+Write a function that calls make_sound() on each one.
+Use isinstance() to distinguish specific actions (e.g., a parrot can repeat words).
+
+Modules and import:
+Try to logically divide the classes into modules.
+
+
+
+
 
