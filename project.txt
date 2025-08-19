@@ -60,6 +60,22 @@ Modules and import:
 Try to logically divide the classes into modules.
 
 
+Lesson 3 – Exception Handling and Random Events
+
+- Add Error Handling (Exception Handling)
+You can add custom exceptions like InvalidHungerValueError, InvalidEnergyValueError, etc., to handle any errors that arise when attributes like hunger or energy fall outside of their valid ranges.
+
+For instance, if someone tries to set a pet's hunger to 150, you'd raise an exception.
+
+Introduce Random Events
+Illness: Implement a random chance that a pet could get sick (e.g., a random event that decreases energy or happiness).
+
+Fatigue: Add fatigue events that cause the pet to need extra sleep or have their energy drop.
+
+Create a Random Event Generator
+Use Python's random library to create random events that can affect the pet's attributes.
 
 
-
+Database Design for Storing Pet States and Logging Activities
+To maintain a record of pets' states (like hunger, energy, and happiness) and track their activities (such as feeding, playing,
+or events like illness and fatigue), you should design a database that can store this data efficiently.
