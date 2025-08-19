@@ -79,3 +79,4 @@ Use Python's random library to create random events that can affect the pet's at
 Database Design for Storing Pet States and Logging Activities
 To maintain a record of pets' states (like hunger, energy, and happiness) and track their activities (such as feeding, playing,
 or events like illness and fatigue), you should design a database that can store this data efficiently.
+f.e. - table pets, activities_log
