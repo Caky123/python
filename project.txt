@@ -80,3 +80,35 @@ Database Design for Storing Pet States and Logging Activities
 To maintain a record of pets' states (like hunger, energy, and happiness) and track their activities (such as feeding, playing,
 or events like illness and fatigue), you should design a database that can store this data efficiently.
 f.e. - table pets, activities_log
+
+Lesson 4 – Pet Statistics & Console Menu
+
+In this lesson, you will extend your Pet Simulator with two main features:
+1. Track Pet Statistics
+Add a new stats dictionary attribute to your Pet class to track how many times the pet:
+- was fed
+- played
+- slept
+- got sick
+- experienced fatigue
+
+Update the existing feed(), play(), and sleep() methods to increment these counters.
+Also update your random event generator to increase the counters for illness and fatigue.
+Add a method show_stats() that prints the pet’s statistics in a clear format.
+
+2. Create a Console Menu (using inquirer)
+Install the inquirer library (pip install inquirer).
+Create a console menu that allows the user to:
+- Feed the pet
+- Play with the pet
+- Let the pet sleep
+
+Advance to the next day (trigger random events)
+
+Show current pet status
+Show pet statistics
+Exit the program
+
+After each action, display the current state or stats of the pet.
+
+Optional: Let the user manage multiple pets and choose which one to interact with.
