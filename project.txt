@@ -112,3 +112,7 @@ Exit the program
 After each action, display the current state or stats of the pet.
 
 Optional: Let the user manage multiple pets and choose which one to interact with.
+
+Lesson 5 - Actions:
+
+Create an action YAML file that will trigger on a push event. It should also run basic tests and perform a flake check to ensure everything is in top shape.
