@@ -116,3 +116,15 @@ Optional: Let the user manage multiple pets and choose which one to interact wit
 Lesson 5 - Actions:
 
 Create an action YAML file that will trigger on a push event. It should also run basic tests and perform a flake check to ensure everything is in top shape.
+
+Lesson 6 - addons:
+Here is the translation to English:
+
+1. The program can be ended at any step in the menu, and it is also possible to go back one step.
+2. When fed, energy should also be added.
+3. When I give it sleep, randomly subtract or add happiness.
+4. In pet.py, adjust the outputs so that the values are not hardcoded.
+5. Next day -> random events 1-3 times, but the same event cannot occur again; if the pet gets sick, no more events can happen.
+6. Missing the creation of the pet at the beginning.
+7. It is possible to load the pet from the database.
+
